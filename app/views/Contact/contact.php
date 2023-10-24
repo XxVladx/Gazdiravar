@@ -25,7 +25,7 @@
         </div>
     </div>
 
-    
+
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6">
@@ -64,24 +64,11 @@
                                 <a href='/Gazdiravar/Volunteer'><button type="submit" class="btn btn-primary" name="addVolunteer" onclick="openEmailClient()">Submit</button></a>
                             </div>
                         </form>
-                        <script>
-                            function openEmailClient() {
-                                const firstName = document.getElementById("fname").value;
-                                const lastName = document.getElementById("lname").value;
-                                const email = document.getElementById("eaddress").value;
-                                const phone = document.getElementById("tele").value;
-                                const over18 = document.getElementById("over18").value;
-                                const message = document.getElementById("message").value;
-                                const subject = "Message from Website";
-                                const body = `First Name: ${firstName}%0D%0ALast Name: ${lastName}%0D%0AEmail: ${email}%0D%0APhone: ${phone}%0D%0AOver 18: ${over18}%0D%0AMessage: ${message}`;
-                                const mailtoUrl = `mailto:g.angelika2001@gmail.com?subject=${subject}&body=${body}`;
-                                window.location.href = mailtoUrl;
-                            }
-                        </script>
+
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-6">
                 <div class="social-media-icons">
                     <!--<h1>Contact Us</h1></br></br>-->
@@ -106,8 +93,8 @@
     </div>
 
     <script src="public/javascript/contact.js"></script>
-</body>
+    <?php require APPROOT . '/views/includes/footer.php'; ?>
 
-<?php //require APPROOT . '/views/includes/footer.php'; ?>
+</body>
 
 </html>
