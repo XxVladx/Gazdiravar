@@ -7,7 +7,6 @@ class Videos extends Controller
 
     public function index()
     {
-        $this->view('FunStuff/videos');
+        $this->view('Fun-Stuff/videos');
     }
 }
-

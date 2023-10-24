@@ -7,17 +7,10 @@
     <!-- Add the Bootstrap CSS link here -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
 
 </head>
 
 <body>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <!-- Hero Start -->
     <div class="container-fluid" style="background-image: url('https://i.imgur.com/KEb6zWy.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">

@@ -50,9 +50,9 @@
                 <li class="dropend">
                     <span class="dropdown-toggle text">About</span>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item textdrop" href="#">About the Team</a></li>
+                        <li><a class="dropdown-item textdrop" href="About">About the Team</a></li>
                         <li><a class="dropdown-item textdrop" href="#">Collaborations</a></li>
-                        <li><a class="dropdown-item textdrop" href="#">Contact</a></li>
+                        <li><a class="dropdown-item textdrop" href="Contact">Contact</a></li>
                     </ul>
                 </li>
                 <li class="dropend">
@@ -76,7 +76,7 @@
                     <span class="dropdown-toggle text">Fun Stuff</span>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item textdrop" href="OurFavoritePosts">Our Favorite Posts</a></li>
-                        <li><a class="dropdown-item textdrop" href="#">Videos</a></li>
+                        <li><a class="dropdown-item textdrop" href="Videos">Videos</a></li>
                         <li><a class="dropdown-item textdrop" href="#">Live Feeds</a></li>
                         <li><a class="dropdown-item textdrop" href="#">Background Images</a></li>
                         <li><a class="dropdown-item textdrop" href="#">Games</a></li>
