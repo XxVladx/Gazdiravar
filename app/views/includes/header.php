@@ -48,7 +48,7 @@
                 <li class="dropdown">
                     <span class="dropdown-toggle" data-bs-toggle="dropdown">About</span>
                     <ul class="submenu dropdown-menu">
-                        <li><a class="dropdown-item" href="#">About the Team</a></li>
+                        <li><a class="dropdown-item" href="About">About the Team</a></li>
                         <li><a class="dropdown-item" href="#">Collaborations</a></li>
                         <li><a class="dropdown-item" href="#">Contact</a></li>
                     </ul>
@@ -73,7 +73,7 @@
                     <span class="dropdown-toggle" data-bs-toggle="dropdown">Fun Stuff</span>
                     <ul class="submenu dropdown-menu">
                         <li><a class="dropdown-item" href="#">Our Favorite Posts</a></li>
-                        <li><a class="dropdown-item" href="#">Videos</a></li>
+                        <li><a class="dropdown-item" href="Videos">Videos</a></li>
                         <li><a class="dropdown-item" href="#">Live Feeds</a></li>
                         <li><a class="dropdown-item" href="#">Background Images</a></li>
                         <li><a class="dropdown-item" href="#">Games</a></li>
