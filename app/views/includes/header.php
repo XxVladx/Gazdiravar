@@ -15,76 +15,79 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <!-- Donate Button with Heart Icon -->
-            <a href="donate.html" class="btn btn-danger btn-light-blue">
+            <a href="Home" class="btn btn-danger btn-light-blue">
                 <i class="fas fa-heart"></i> Ways To Donate
             </a>
 
             <!-- Logo in the center of the navbar -->
-            <div class="mx-auto">
+            <div class="mx-auto logo">
                 <a href="Home">
-                    <img src="https://i.imgur.com/gpQpnbc.png" alt="Logo" height="65">
+                    <img src="https://i.imgur.com/gpQpnbc.png" alt="Logo" height="70">
                 </a>
             </div>
 
+            <div class="menu-label">Menu</div>
             <!-- Hamburger Icon -->
-            <div class="hamburger-icon" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
+            <div class="hamburger-icon" id="hamburger" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
                 <i class="fas fa-bars fa-2x"></i>
             </div>
         </div>
     </nav>
 
     <!-- Offcanvas Sidebar -->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="sidebarLabel">Menu</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn-close text-reset btn-custom" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <h5 class="offcanvas-title" id="sidebarLabel"></h5>
         </div>
         <div class="offcanvas-body">
+            <div class="vertical"></div>
             <ul class="list-unstyled">
-                <li class="home-link"><a href="Home">Home</a></li>
-                <li class="dropdown">
-                    <span class="dropdown-toggle" data-bs-toggle="dropdown">About</span>
-                    <ul class="submenu dropdown-menu">
-                        <li><a class="dropdown-item" href="About">About the Team</a></li>
-                        <li><a class="dropdown-item" href="#">Collaborations</a></li>
-                        <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li class="home-link text"><a href="Home">Home</a></li>
+                <li class="dropend">
+                    <span class="dropdown-toggle text">About</span>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item textdrop" href="#">About the Team</a></li>
+                        <li><a class="dropdown-item textdrop" href="#">Collaborations</a></li>
+                        <li><a class="dropdown-item textdrop" href="#">Contact</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
-                    <span class="dropdown-toggle" data-bs-toggle="dropdown">Adoptions</span>
-                    <ul class="submenu dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Adopt a Pet</a></li>
-                        <li><a class="dropdown-item" href="#">Adoption Form</a></li>
+                <li class="dropend">
+                    <span class="dropdown-toggle text">Adoptions</span>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item textdrop" href="#">Adopt a Pet</a></li>
+                        <li><a class="dropdown-item textdrop" href="#">Adoption Form</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
-                    <span class="dropdown-toggle" data-bs-toggle="dropdown">Pet Care Tips Blog</span>
-                    <ul class="submenu dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Summer Tips</a></li>
-                        <li><a class="dropdown-item" href="#">Autumn Tips</a></li>
-                        <li><a class="dropdown-item" href="#">About Fireworks</a></li>
-                        <li><a class="dropdown-item" href="#">About Halloween</a></li>
+                <li class="home-link text"><a href="#">Pet Care Tips Blog</a></li>
+                <li class="dropend">
+                    <span class="dropdown-toggle text">All Tips</span>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item textdrop" href="#">Summer Tips</a></li>
+                        <li><a class="dropdown-item textdrop" href="#">Autumn Tips</a></li>
+                        <li><a class="dropdown-item textdrop" href="#">About Fireworks</a></li>
+                        <li><a class="dropdown-item textdrop" href="#">About Halloween</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
-                    <span class="dropdown-toggle" data-bs-toggle="dropdown">Fun Stuff</span>
-                    <ul class="submenu dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Our Favorite Posts</a></li>
-                        <li><a class="dropdown-item" href="Videos">Videos</a></li>
-                        <li><a class="dropdown-item" href="#">Live Feeds</a></li>
-                        <li><a class="dropdown-item" href="#">Background Images</a></li>
-                        <li><a class="dropdown-item" href="#">Games</a></li>
+                <li class="dropend">
+                    <span class="dropdown-toggle text">Fun Stuff</span>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item textdrop" href="OurFavoritePosts">Our Favorite Posts</a></li>
+                        <li><a class="dropdown-item textdrop" href="#">Videos</a></li>
+                        <li><a class="dropdown-item textdrop" href="#">Live Feeds</a></li>
+                        <li><a class="dropdown-item textdrop" href="#">Background Images</a></li>
+                        <li><a class="dropdown-item textdrop" href="#">Games</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
     </div>
 
-    <!-- Font Awesome Script -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="public\javacript\header.js"></script>
 </body>
 
 </html>

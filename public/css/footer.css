@@ -1,0 +1,22 @@
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #0073cf;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 15px;
+    margin-top: 5%;
+}
+
+
+.link-SOS {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.link-SOS:hover{
+    color: black;
+}
