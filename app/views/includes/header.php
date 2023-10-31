@@ -78,7 +78,7 @@
                         <li><a class="dropdown-item textdrop" href="OurFavoritePosts">Our Favorite Posts</a></li>
                         <li><a class="dropdown-item textdrop" href="Videos">Videos</a></li>
                         <li><a class="dropdown-item textdrop" href="#">Live Feeds</a></li>
-                        <li><a class="dropdown-item textdrop" href="#">Background Images</a></li>
+                        <li><a class="dropdown-item textdrop" href="BackgroundImages">Background Images</a></li>
                         <li><a class="dropdown-item textdrop" href="#">Games</a></li>
                     </ul>
                 </li>
