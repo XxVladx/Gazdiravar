@@ -16,9 +16,25 @@
     <footer class="footer">
         <div class="container">
             <div class="row mt-3">
-                <div class="col-md-6 offset-md-3 mt-3 text-center">
-                    <p>Website created by <a class="link-SOS" href="https://www.consultationsos.com">Consultation SOS</a></p>
-                    <p>© 2023 by Consultation SOS. All rights reserved.</p>
+                <div class="col-md-6">
+                    <h3>Enjoy what we do?</h3>
+                    <h5>Why not Subscribe to stay up-to-date with us!</h5>
+                    <ul class="list-unstyled">
+                        <li>- Learn about new animals added to the Website</li>
+                        <li>- Tips of the season, health, and animal keeping tips</li>
+                        <li>- Downloadable background images and posters</li>
+                        <li>- And more!</li>
+                    </ul>
+                    <form action="#" method="post" class="form-inline justify-content-center mt-3">
+                        <div class="form-group mx-sm-3 mb-2">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your email address" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2 custom-btn">SUBSCRIBE!</button>
+                    </form>
+                </div>
+                <div class="col-md-6 text-right">
+                    <h1 class="header2">Gazdira Vár</h1>
+                    <p class="text-Copy">Website created by <a class="link-SOS" href="https://www.consultationsos.com">Consultation SOS</a><br> © 2023 by Consultation SOS. All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -26,7 +42,7 @@
 
 
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <script src="public\javacript\footer.js"></script>
+    <script src="public/javascript/footer.js"></script>
 </body>
 
 </html>

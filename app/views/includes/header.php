@@ -66,7 +66,7 @@
                 <li class="dropend">
                     <span class="dropdown-toggle text">All Tips</span>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item textdrop" href="#">Summer Tips</a></li>
+                        <li><a class="dropdown-item textdrop" href="SummerTips">Summer Tips</a></li>
                         <li><a class="dropdown-item textdrop" href="#">Autumn Tips</a></li>
                         <li><a class="dropdown-item textdrop" href="#">About Fireworks</a></li>
                         <li><a class="dropdown-item textdrop" href="#">About Halloween</a></li>
@@ -80,6 +80,15 @@
                         <li><a class="dropdown-item textdrop" href="#">Live Feeds</a></li>
                         <li><a class="dropdown-item textdrop" href="#">Background Images</a></li>
                         <li><a class="dropdown-item textdrop" href="#">Games</a></li>
+                    </ul>
+                </li>
+                <li class="dropend">
+                    <span class="dropdown-toggle text">We Need You</span>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item textdrop" href="#">Fundraisers</a></li>
+                        <li><a class="dropdown-item textdrop" href="Videos">Helping Shelters</a></li>
+                        <li><a class="dropdown-item textdrop" href="#">Volunteer at Gazdiar Var</a></li>
+                        <li><a class="dropdown-item textdrop" href="#">How Can You Help us?</a></li>
                     </ul>
                 </li>
             </ul>

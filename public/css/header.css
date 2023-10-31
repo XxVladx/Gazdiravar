@@ -71,7 +71,7 @@
     display: block;
     position: absolute;
     top: 0;
-    left: 55%; /* Position it to the right of the parent */
+    left: 50%; /* Position it to the right of the parent */
     background: none;
     border: none;
     cursor: pointer;
@@ -84,7 +84,7 @@
 
 .vertical {
     border-left: 5px solid white;
-    height: 230px;
+    height: 270px;
     position:absolute;
     left: 5%;
     margin-right: 50px;

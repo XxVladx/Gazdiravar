@@ -1,3 +1,89 @@
 .banner{
     margin-top: 55px;
 }
+
+.custom-card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+    margin-top: 5%;
+}
+
+.custom-cards{
+    background-color: #ADD8E6;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+    border: 1px solid black;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.custom-btn{
+    padding: 5px 5px;
+    font-weight: bold;
+}
+
+.label-1{
+    font-weight: bold;
+}
+
+.label-2{
+    font-weight: bold;
+}
+
+.txt-form{
+    font-weight: bold;
+}
+
+.para-text {
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+#text-title1{
+    font-size: 50px;
+}
+
+.card{
+    background-color: #ADD8E6;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+    border: 1px solid black;
+    color: black;
+}
+
+.custom-alert{
+    margin-top: 5%;
+    background-color: #ADD8E6;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.custom-item{
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: 18px;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Apply animation to the slide-in class */
+.slide-in {
+    animation: slideIn .8s ease forwards;
+}
+
+.custom-item:hover{
+    background-color: lightgray;
+}
