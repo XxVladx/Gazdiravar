@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <!-- Donate Button with Heart Icon -->
-            <a href="Home" class="btn btn-danger btn-light-blue">
+            <a href="Donate" class="btn btn-danger btn-light-blue">
                 <i class="fas fa-heart"></i> Ways To Donate
             </a>
 
@@ -67,9 +67,9 @@
                     <span class="dropdown-toggle text">All Tips</span>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item textdrop" href="SummerTips">Summer Tips</a></li>
-                        <li><a class="dropdown-item textdrop" href="#">Autumn Tips</a></li>
-                        <li><a class="dropdown-item textdrop" href="#">About Fireworks</a></li>
-                        <li><a class="dropdown-item textdrop" href="#">About Halloween</a></li>
+                        <li><a class="dropdown-item textdrop" href="AutumnTips">Autumn Tips</a></li>
+                        <li><a class="dropdown-item textdrop" href="AboutFireworks">About Fireworks</a></li>
+                        <li><a class="dropdown-item textdrop" href="AboutHalloween">About Halloween</a></li>
                     </ul>
                 </li>
                 <li class="dropend">

@@ -8,6 +8,15 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -36,6 +45,28 @@
 
             <p class="mb-4">Her big dream was to connect shelters in different locations across the world to help each other when animals have difficulty to get adopted in one area. This dream actually became a reality during the Autumn of 2021 when she has made connections with shelters in Iran. Feel free to read more about our collaboration <a href="#volunteer-form">here</a>.</p>
 
+            <p class="mb-4">We have had a big team working on this project. See just how many below:</p>
+
+            <div class="card">
+                <div class="card-body">
+                    <ul class="list-group text-center">
+                        <li class="list-group-item">Serena Alfano, Graphic Design</li>
+                        <li class="list-group-item">Shiyue Zhang, Graphic Design</li>
+                        <li class="list-group-item">Kian Morot, Programming</li>
+                        <li class="list-group-item">Darrell-David Madanay, Programming</li>
+                        <li class="list-group-item">Joel Polanco, Programming</li>
+                        <li class="list-group-item">Raji Naser Allah, Programming</li>
+                        <li class="list-group-item">Ryan McGinity, Programming</li>
+                        <li class="list-group-item">Benjamin Watson, Programming</li>
+                        <li class="list-group-item">Jiandong Han, Programming</li>
+                        <li class="list-group-item">Veronika Orszagh, Translation</li>
+                        <li class="list-group-item">Georgiana Guica, Translation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <br>
+            
             <p class="mb-4">A BIG thank you to all the rescue organizations and individuals we are collaborating with each and every day!</p>
 
             <p class="mb-4">We are very grateful for everyone who has contributed to this project in one way or another. Without you, this would not have been possible! Together we are making a difference!</p>
