@@ -7,8 +7,6 @@
     <!-- Add the Bootstrap CSS link here -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .card:hover {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -66,7 +64,7 @@
             </div>
 
             <br>
-            
+
             <p class="mb-4">A BIG thank you to all the rescue organizations and individuals we are collaborating with each and every day!</p>
 
             <p class="mb-4">We are very grateful for everyone who has contributed to this project in one way or another. Without you, this would not have been possible! Together we are making a difference!</p>
