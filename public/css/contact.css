@@ -84,3 +84,92 @@ body {
     margin: 0 10px;
     text-decoration: none;
 }
+
+#map-container {
+    position: relative;
+}
+/* Define the pop-up animation */
+@keyframes pop-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply the pop-up animation to specified h2 elements */
+h2.text-black,
+h2.mb-4 {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+h2.text-black {
+    font-size: 50px;
+    font-weight: 500;
+    -webkit-text-stroke: 1px white;
+    animation: pop-up 1s ease forwards;
+}
+
+h2.mb-4 {
+    animation: pop-up 0.5s ease 0.2s forwards; /* Delay the animation for the second h2 element */
+}
+
+#map-container {
+    position: relative;
+}
+
+/* Map */
+#map {
+    width: 100%;
+    opacity: 0;
+    height: 450px;
+    margin-bottom: 10%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1); /* Add a subtle shadow */
+    border: 1px solid black; /* Add a 1px solid border with a light gray color */
+}
+
+/* Buttons Container */
+.map-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+/* Custom CSS for Map and Satellite buttons */
+.custom-button {
+    border: 1px solid #00263E; /* Border color */
+    color: #00263E; /* Text color */
+    font-size: 16px; /* Font size */
+    padding: 8px 20px; /* Padding */
+    margin-right: 10px; /* Margin between buttons */
+    cursor: pointer;
+    font-weight: normal; /* Set normal font-weight by default */
+    background-color: white !important; /* White background */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition background and text color */
+}
+
+/* Style for the selected button when clicked */
+.custom-button:active,
+.custom-button:focus {
+    color: #FFF !important; /* Text color for selected button */
+    font-weight: bold; /* Bolder font weight for selected button */
+    background-color: #00263E !important; /* Background color for selected button */
+}
+
+/* Hover effect */
+.custom-button:hover {
+    background-color: #00263E !important; /* Background color on hover */
+    color: #FFF !important; /* Text color on hover */
+}
+
+.popup-animation {
+    animation: pop-up 0.5s ease-in 0.2s forwards;
+}
+
+

@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
 
 </head>
 
@@ -46,7 +47,7 @@
                                 <input type="email" class="form-control" id="eaddress" name="eaddress">
                             </div>
                             <div class="form-group">
-                                <label for="tele">Upload Image</label>
+                                <label for="upload">Upload Image</label>
                                 <button class="form-control" id="tele" name="tele">Browse</button>
                             </div>
                             <div class="form-group">
@@ -54,11 +55,8 @@
                                 <textarea class="form-control" id="message" name="message"></textarea>
                             </div>
                             <div class="form-group">
-                                <label for="over18">Captcha</label>
-                                <select class="form-control" id="over18" name="over18">
-                                    <option value="yes">I am over 18 years old</option>
-                                    <option value="no">I am under 18 years old</option>
-                                </select>
+                                <label for="captcha">Captcha</label>
+                                <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
                             </div>
                             <div>
                                 <a href='/Gazdiravar/Volunteer'><button type="submit" class="btn btn-primary" name="addVolunteer" onclick="openEmailClient()">Submit</button></a>
@@ -70,8 +68,8 @@
             </div>
 
             <div class="col-md-6">
+                <p style="color: #0073cf; font-weight: 500; font-size: 20px; text-align: center;">Contact Us</p>
                 <div class="social-media-icons">
-                    <!--<h1>Contact Us</h1></br></br>-->
                     <a href="https://www.facebook.com/gazdiravar">
                         <i class="fab fa-facebook-f"></i>
                     </a>
@@ -87,12 +85,23 @@
                     <a href="https://www.tiktok.com/@gazdiravar">
                         <i class="fa-brands fa-tiktok"></i>
                     </a>
+                </div><br>
+                <p style="color: #0073cf; font-weight: 500; font-size: 20px; text-align: center;">Follow Us</p>
+                <div id="map-container">
+                    <!-- Leaflet Map -->
+                    <div id="map" class="popup-animation" style="width: 100%; height: 450px;"></div>
+                    <!-- Buttons on top of the map -->
+                    <div class="btn-group map-buttons" style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
+                        <button id="mapButton" class="btn custom-button">Map</button>
+                        <button id="satelliteButton" class="btn custom-button">Satellite</button>
+                    </div>
                 </div>
             </div>
+             <!-- Map Container -->
         </div>
     </div>
 
-    <script src="public/javascript/contact.js"></script>
+    <script src="public/javacript/contact.js"></script>
     <?php require APPROOT . '/views/includes/footer.php'; ?>
 
 </body>
