@@ -88,7 +88,7 @@
                         <li><a class="dropdown-item textdrop" href="#">Fundraisers</a></li>
                         <li><a class="dropdown-item textdrop" href="HelpingShelters">Helping Shelters</a></li>
                         <li><a class="dropdown-item textdrop" href="#">Volunteer at Gazdira Var</a></li>
-                        <li><a class="dropdown-item textdrop" href="#">How Can You Help us?</a></li>
+                        <li><a class="dropdown-item textdrop" href="HowCanYouHelpUs">How Can You Help us?</a></li>
                     </ul>
                 </li>
             </ul>

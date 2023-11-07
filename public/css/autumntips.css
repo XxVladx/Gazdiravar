@@ -2,6 +2,28 @@
     margin-top: 55px;
 }
 
+body{
+    font-family: sans-serif;
+}
+
+#text-title1{
+    font-size: 50px;
+}
+
+
+.custom-card {
+    border: none;
+}
+
+.slim-paragraph {
+    max-width: 700px;
+    margin: 0 auto; /* Center the paragraph */
+}
+
+.sub-title{
+    margin-top: 4%;
+}
+
 @keyframes slideIn {
     from {
         transform: translateX(-100%);
@@ -27,4 +49,12 @@
     to {
         opacity: 1;
     }
+}
+
+.card-body img {
+    transition: transform 0.3s ease;
+}
+
+.card-body img:hover {
+    transform: scale(1.5);
 }

@@ -1,0 +1,26 @@
+
+    /* Add this CSS to your existing CSS or in a separate CSS file */
+    .slide-in {
+        animation: slideIn 1s forwards;
+    }
+
+    .pop-up {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .pop-up:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
