@@ -58,8 +58,8 @@
                 <li class="dropend">
                     <span class="dropdown-toggle text">Adoptions</span>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item textdrop" href="#">Adopt a Pet</a></li>
-                        <li><a class="dropdown-item textdrop" href="#">Adoption Form</a></li>
+                        <li><a class="dropdown-item textdrop" href="AdoptAPet">Adopt a Pet</a></li>
+                        <li><a class="dropdown-item textdrop" href="AdoptionForm">Adoption Form</a></li>
                     </ul>
                 </li>
                 <li class="home-link text"><a href="#">Pet Care Tips Blog</a></li>
@@ -86,7 +86,7 @@
                     <span class="dropdown-toggle text">We Need You</span>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item textdrop" href="#">Fundraisers</a></li>
-                        <li><a class="dropdown-item textdrop" href="Videos">Helping Shelters</a></li>
+                        <li><a class="dropdown-item textdrop" href="HelpingShelters">Helping Shelters</a></li>
                         <li><a class="dropdown-item textdrop" href="#">Volunteer at Gazdira Var</a></li>
                         <li><a class="dropdown-item textdrop" href="#">How Can You Help us?</a></li>
                     </ul>

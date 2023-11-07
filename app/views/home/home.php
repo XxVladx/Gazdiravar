@@ -20,14 +20,31 @@
             <hr class="custom-hr">
             <div class="row">
                 <div class="col-md-12">
-                    <p class="text-white slide-in" id="subtext" style="font-weight: 300; font-size:20px;">Helping abandoned animals finding homes</p>
-                    <a href="#" class="btn btn-primary mt-3 adopt-btn">Adopt a Pet</a>
+                    <p class="text-white slide-in" id="subtext" style="font-size: 20px; -webkit-text-stroke: 1px white;">Helping abandoned animals finding homes</p>
+                    <a href="AdoptAPet" class="btn btn-primary mt-3 adopt-btn slide-in">Adopt a Pet</a>
                 </div>
             </div>
         </div>
     </div>
 
-
+    <div class="container mt-5 fade-in">
+        <h3 class="text-center welcome-title">Welcome to our Page</h3>
+        <div class="container slim-para">
+            <p>We are helping animal shelters and rescues to be able to find new homes for the animals in need. Note that we do not do animal rescues ourselves, we provide support to those organizations in any way possible via promotion, marketing, graphic design, fundraising, social media, website development and support, etc. to spread the word and build international relations between organizations.</p>
+            <p>We are more than happy to share your posts of animals that are looking for a forever home or perhaps in need of funding to provide medical care. We will gladly help you with Facebook, Twitter, Instagram, YouTube and other social media platforms you may use. Note that we provide our services free of charge and we hope that we can make a difference that way in saving the lives of as many animals as possible.</p>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-4 d-flex flex-column">
+                <img src="https://i.imgur.com/4zHNE3x.jpg" class="img-fluid" alt="Image 1">
+            </div>
+            <div class="col-md-4 d-flex flex-column">
+                <img src="https://i.imgur.com/YZo2rlz.jpg" class="img-fluid" alt="Image 2">
+            </div>
+            <div class="col-md-4 d-flex flex-column">
+                <img src="https://i.imgur.com/hcYGqdf.jpg" class="img-fluid" alt="Image 3">
+            </div>
+        </div>
+    </div>
 
     <?php require APPROOT . '/views/includes/footer.php'; ?>
 </body>

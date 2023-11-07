@@ -1,0 +1,30 @@
+.form-group {
+    margin-bottom: 10px;
+}
+
+.custom-cards{
+    background-color: #ADD8E6;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+    border: 1px solid black;
+}
+
+.form-group input[type="text"], .form-group input[type="email"], .form-group input[type="tel"], .form-group textarea{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Apply animation to the slide-in class */
+.slide-in {
+    animation: slideIn .8s ease forwards;
+}
+
