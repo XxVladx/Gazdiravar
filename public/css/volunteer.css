@@ -1,0 +1,68 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+.container {
+    margin-top: 30px;
+}
+.heading {
+    background-image: url('https://i.imgur.com/czVdWao.jpg');
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.job-title {
+    font-weight: bold;
+    color: #007bff;
+}
+.job-description {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+.apply-now-btn {
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.job {
+    background: #fff;
+    margin: 15px 0;
+    padding: 15px;
+    border-left: #007bff 4px solid;
+}
+.job h2 {
+    margin-top: 0;
+    color: #007bff;
+}
+.job p {
+    margin: 0;
+}
+.job-details {
+    background: #e7e7e7;
+    padding: 15px;
+    margin: 15px 0;
+    line-height: 1.8;
+}

@@ -1,5 +1,5 @@
 <?php
-class Backgroundimages extends Controller
+class Volunteer extends Controller
 {
     public function __construct()
     {
@@ -7,6 +7,6 @@ class Backgroundimages extends Controller
 
     public function index()
     {
-        $this->view('Fun-Stuff/backgroundimages');
+        $this->view('Volunteer/volunteer');
     }
 }
