@@ -15,13 +15,25 @@
 </head>
 
 <body>
-    <div class="header-section">
-        <h2 class="header-title">Contact Us</h2>
-        <hr>
-        <h2 class="text-black slide-in"
-            style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping
-            abandonned animals finding homes</h4>
+
+        <!-- Hero Start -->
+    <div class="container-fluid banner"
+        style="background-image: url('https://i.imgur.com/mKahEKE.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-black slide-in"
+                        style="font-family: 'Open Sans', sans-serif; font-size: 50px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">
+                        Contact Us</h2>
+                    <hr>
+                    <h2 class="text-black slide-in"
+                        style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping
+                        abandonned animals finding homes</h4>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- Hero End -->
 
     <div class="container mt-5">
         <div class="volunteer-section">
