@@ -17,12 +17,17 @@
 <body>
     <div class="header-section">
         <h2 class="header-title">Contact Us</h2>
+        <hr>
+        <h2 class="text-black slide-in"
+            style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping
+            abandonned animals finding homes</h4>
     </div>
 
     <div class="container mt-5">
         <div class="volunteer-section">
             <h1>Volunteer with Gazdiravar!</h1>
-            <p>There are many ways you can help us contribute to finding homes for animals at shelters. For more details, visit our <a href='/Gazdiravar/Volunteer'>Volunteer Page</a>.</p>
+            <p>There are many ways you can help us contribute to finding homes for animals at shelters. For more
+                details, visit our <a href='/Gazdiravar/Volunteer'>Volunteer Page</a>.</p>
         </div>
     </div>
 
@@ -59,7 +64,8 @@
                                 <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
                             </div>
                             <div>
-                                <a href='/Gazdiravar/Volunteer'><button type="submit" class="btn btn-primary" name="addVolunteer" onclick="openEmailClient()">Submit</button></a>
+                                <a href='/Gazdiravar/Volunteer'><button type="submit" class="btn btn-primary"
+                                        name="addVolunteer" onclick="openEmailClient()">Submit</button></a>
                             </div>
                         </form>
 
@@ -91,13 +97,14 @@
                     <!-- Leaflet Map -->
                     <div id="map" class="popup-animation" style="width: 100%; height: 450px;"></div>
                     <!-- Buttons on top of the map -->
-                    <div class="btn-group map-buttons" style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
+                    <div class="btn-group map-buttons"
+                        style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
                         <button id="mapButton" class="btn custom-button">Map</button>
                         <button id="satelliteButton" class="btn custom-button">Satellite</button>
                     </div>
                 </div>
             </div>
-             <!-- Map Container -->
+            <!-- Map Container -->
         </div>
     </div>
 

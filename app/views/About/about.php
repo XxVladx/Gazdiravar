@@ -19,6 +19,10 @@
                     <h2 class="text-black slide-in"
                         style="font-family: 'Open Sans', sans-serif; font-size: 50px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">
                         About The Team</h2>
+                        <hr>
+                    <h2 class="text-black slide-in"
+                        style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping
+                        abandonned animals finding homes</h4>
 
                 </div>
             </div>

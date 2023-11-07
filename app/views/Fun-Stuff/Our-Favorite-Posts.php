@@ -15,6 +15,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="text-black slide-in" id="text-title1" style="font-weight: 500; -webkit-text-stroke: 1px white;">Our Favorite Posts</h2>
+                    <hr>
+                    <h2 class="text-black slide-in"
+                        style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping
+                        abandonned animals finding homes</h4>
                 </div>
             </div>
         </div>
