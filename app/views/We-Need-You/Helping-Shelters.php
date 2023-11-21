@@ -13,17 +13,14 @@
 
 <body>
     <!-- Hero Start -->
-    <div class="container-fluid"
-        style="background-image: url('https://i.imgur.com/mKahEKE.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div class="container-fluid" style="background-image: url('https://i.imgur.com/mKahEKE.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-black slide-in"
-                        style="font-family: 'Open Sans', sans-serif; font-size: 50px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">
+                    <h2 class="text-black slide-in" style="font-family: 'Open Sans', sans-serif; font-size: 50px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">
                         Helping Shelters</h2>
                     <hr>
-                    <h2 class="text-black slide-in"
-                        style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping
+                    <h2 class="text-black slide-in" style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping
                         abandonned animals finding homes</h4>
                 </div>
             </div>
@@ -49,8 +46,7 @@
                     </p>
                     <div class="alert alert-info text-center" role="alert" style="font-size: small; padding: 0.25rem;">
                         Search for your favorite animal shelter on Gazdiravar here & check what kind of volunteer work
-                        they need. If you cannot find it on Gazdiravar, email us at <a
-                            href="mailto:gazdiravar@yahoo.com">gazdiravar@yahoo.com</a> and we will find out and let you
+                        they need. If you cannot find it on Gazdiravar, email us at <a href="mailto:gazdiravar@yahoo.com">gazdiravar@yahoo.com</a> and we will find out and let you
                         know. We will also add that shelter to our website so that others may find that information as
                         well in the future.
                     </div>
@@ -61,8 +57,7 @@
                     <h3>2. Donate Items</h3>
                     <p>
                         Donate items you don’t need at home. You might not realize that a lot of things you have at home
-                        could be extremely useful at shelters. See a list of items that most shelters accept <a
-                            href="#">here</a>.
+                        could be extremely useful at shelters. See a list of items that most shelters accept <a href="#">here</a>.
                     </p>
                 </div>
 
@@ -85,9 +80,7 @@
                 </div>
 
                 <div class="d-flex justify-content-center align-items-center">
-                    <iframe class="embed-responsive-item"
-                        src="https://player.vimeo.com/video/458261259?autoplay=1&loop=1&title=0&byline=0&portrait=0"
-                        width="960" height="540" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/458261259?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="960" height="540" allowfullscreen></iframe>
                 </div>
 
                 <div class="mb-4">
@@ -105,8 +98,7 @@
                         For more details visit <a href="https://www.royale.ca/pets">Royale-Pets</a>
                     </p>
                     <p>
-                        If you are living or spending time in Canada: Donate your car to a charity via <a
-                            href="https://donatecar.ca/">Donate-Car</a><br><br> Donate a Car makes car donations simple
+                        If you are living or spending time in Canada: Donate your car to a charity via <a href="https://donatecar.ca/">Donate-Car</a><br><br> Donate a Car makes car donations simple
                         for both you, and the charity you love. They make used car donations, car removal, car
                         recycling, or simply junking a car an easy process for you by:
                     </p>
@@ -126,18 +118,15 @@
                         donations. This can differ from organization to organization. However, most shelters will accept
                         checks, money order, money sent to their bank account, or online payment via PayPal or credit
                         card. If both you and your spouse donate, here is a link where you can get some advice on
-                        pooling your donations to maximize your benefit income tax time in Canada: <a
-                            href="https://turbotax.intuit.ca/tips/make-donations-animal-charities-count-7936">Turbotax</a>.
-                        If you cannot find the animal shelter you are looking for on Gazdiravar, email us at <a
-                            href="mailto:gazdiravar@yahoo.com">gazdiravar@yahoo.com</a> and we will get the information
+                        pooling your donations to maximize your benefit income tax time in Canada: <a href="https://turbotax.intuit.ca/tips/make-donations-animal-charities-count-7936">Turbotax</a>.
+                        If you cannot find the animal shelter you are looking for on Gazdiravar, email us at <a href="mailto:gazdiravar@yahoo.com">gazdiravar@yahoo.com</a> and we will get the information
                         for you. We will also add that shelter to our website so that others may donate to them as well.
                     </p>
                     <p>
                         When You Donate Money, Make Sure Your Donation Qualifies. Not all donations qualify for a credit
                         at tax time. Due to a number of scams involving fake 'charities', it's best to make sure your
                         donation is actually going to a good cause. If you live in Canada, check out the Canada Revenue
-                        Agency (CRA’s) list of qualified charities before donating: <a
-                            href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-34900-donations-gifts/which-donations-claim.html">Qualified-Charities</a>.
+                        Agency (CRA’s) list of qualified charities before donating: <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-34900-donations-gifts/which-donations-claim.html">Qualified-Charities</a>.
                         Also, take a look at your donation receipt for validity purposes so that it contains specific
                         information including:
                     </p>
@@ -208,6 +197,24 @@
             </div>
         </div>
     </div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178008028-1"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+
+
+        gtag('config', 'UA-178008028-1');
+    </script>
 
     <?php require APPROOT . '/views/includes/footer.php'; ?>
 </body>

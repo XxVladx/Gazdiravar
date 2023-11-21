@@ -87,9 +87,15 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item textdrop" href="#">Fundraisers</a></li>
                         <li><a class="dropdown-item textdrop" href="HelpingShelters">Helping Shelters</a></li>
-                        <li><a class="dropdown-item textdrop" href="#">Volunteer at Gazdira Var</a></li>
+                        <li><a class="dropdown-item textdrop" href="Volunteer">Volunteer at Gazdira Var</a></li>
                         <li><a class="dropdown-item textdrop" href="HowCanYouHelpUs">How Can You Help us?</a></li>
                     </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text" href="HungHome">
+                        Magyar
+                        <span class="flag-icon flag-icon-hu" style="margin-right: 5px;"></span>
+                    </a>
                 </li>
             </ul>
         </div>

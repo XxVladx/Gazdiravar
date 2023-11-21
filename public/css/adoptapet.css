@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+}
+
+.card-img-top {
+    transition: filter 0.3s ease; /* Add transition for smooth effect */
+}
+
+.card-img-top:hover {
+    filter: grayscale(100%) brightness(80%); /* Apply gray tint and reduce brightness when hovered over */
+}
+
+.card-details {
+    padding: 1rem;
+}

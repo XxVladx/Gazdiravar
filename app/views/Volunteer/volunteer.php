@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php require APPROOT . '/views/includes/header.php'; ?>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volunteer Opportunities at Gazdira Vár</title>
     <link rel="stylesheet" type="text/css" href="css/volunteer.css">
-    
+
     <style>
 
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="heading">
@@ -52,7 +54,7 @@
                 <p>Yes</p>
             </div>
         </div>
-        
+
         <!-- Job Section -->
         <div class="job">
             <h2>Market Research</h2>
@@ -72,7 +74,7 @@
                 <p>Yes</p>
             </div>
         </div>
-        
+
         <!-- Job Section -->
         <div class="job">
             <h2>Grant Researcher & Writer</h2>
@@ -158,11 +160,26 @@
         </div>
         <a href="Contact" class="apply-now-btn">Apply Now</a>
     </div>
-<!-- Job Section -->
+    <!-- Job Section -->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178008028-1"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+
+
+        gtag('config', 'UA-178008028-1');
+    </script>
+
 </body>
 
 <?php require APPROOT . '/views/includes/footer.php'; ?>

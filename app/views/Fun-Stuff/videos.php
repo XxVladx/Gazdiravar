@@ -16,8 +16,7 @@
                 <div class="col-md-12">
                     <h2 class="text-black slide-in" style="font-size: 50px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Videos</h2>
                     <hr>
-                    <h2 class="text-black slide-in"
-                        style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping
+                    <h2 class="text-black slide-in" style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping
                         abandonned animals finding homes</h4>
                 </div>
             </div>
@@ -253,6 +252,24 @@
             </div>
         </div>
     </div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178008028-1"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+
+
+        gtag('config', 'UA-178008028-1');
+    </script>
 
     <script src="public/javacript/videos.js"></script>
     <?php require APPROOT . '/views/includes/footer.php'; ?>

@@ -31,7 +31,7 @@
 
             <br>
             <br>
-            
+
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 pop-up">
@@ -76,7 +76,24 @@
         </div>
     </div>
 
-    <script src="public/javacript/fireworks.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178008028-1"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+
+
+        gtag('config', 'UA-178008028-1');
+    </script>
+
     <?php require APPROOT . '/views/includes/footer.php'; ?>
 </body>
 

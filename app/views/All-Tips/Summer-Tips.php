@@ -10,16 +10,13 @@
 
 <body>
 
-    <div class="container-fluid banner"
-        style="background-image: url('https://i.imgur.com/d2juuc1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div class="container-fluid banner" style="background-image: url('https://i.imgur.com/d2juuc1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-black slide-in" id="text-title1"
-                        style="font-weight: 500; -webkit-text-stroke: 1px white;">Summer Tips</h2>
+                    <h2 class="text-black slide-in" id="text-title1" style="font-weight: 500; -webkit-text-stroke: 1px white;">Summer Tips</h2>
                     <hr>
-                    <h2 class="text-black slide-in"
-                        style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping
+                    <h2 class="text-black slide-in" style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping
                         abandonned animals finding homes</h4>
                 </div>
             </div>
@@ -93,8 +90,7 @@
                 animal can breathe again. If there is no improvement within a short period of time, see a veterinarian
                 immediately as heat stroke can be fatal.</p>
             <p>Our poster is also translated into French, Spanish and Hungarian. Visit our website sections on those
-                languages to download them. We will work on preparing it in other languages as well, to view those <a
-                    href="#" style="text-decoration: none;">click here.</a> 😊</p>
+                languages to download them. We will work on preparing it in other languages as well, to view those <a href="#" style="text-decoration: none;">click here.</a> 😊</p>
             <p>To download these tips as a poster, see our jpg and pdf versions below.</p><br><br>
             <div class="container mt-5">
                 <div class="alert alert-info" role="alert">
@@ -118,6 +114,23 @@
         </div>
     </div>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178008028-1"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+
+
+        gtag('config', 'UA-178008028-1');
+    </script>
 
     <?php require APPROOT . '/views/includes/footer.php'; ?>
 </body>

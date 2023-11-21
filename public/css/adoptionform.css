@@ -28,3 +28,7 @@
     animation: slideIn .8s ease forwards;
 }
 
+body{
+    font-family: sans-serif;
+}
+

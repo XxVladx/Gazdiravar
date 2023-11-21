@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require APPROOT . '/views/includes/header.php'; ?>
+<?php require APPROOT . '/views/includes/hungheader.php'; ?>
 
 <head>
     <meta charset="utf-8">
@@ -16,25 +16,24 @@
                 <div class="col-md-12">
                     <h2 class="text-black slide-in" id="text-title1" style="font-weight: 500; -webkit-text-stroke: 1px white;">Gazdira Vár</h2>
                     <hr>
-                    <h2 class="text-black slide-in" style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping
-                        abandonned animals finding homes</h4>
+                    <h2 class="text-black slide-in" style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Segíteni elhagyott állatoknak otthont találni.</h4>
                 </div>
             </div>
             <hr class="custom-hr">
             <div class="row">
                 <div class="col-md-12">
-                    <p class="text-white slide-in" id="subtext" style="font-size: 20px; -webkit-text-stroke: 1px white;">Helping abandoned animals finding homes</p>
-                    <a href="AdoptAPet" class="btn btn-primary mt-3 adopt-btn slide-in">Adopt a Pet</a>
+                    <p class="text-white slide-in" id="subtext" style="font-size: 20px; -webkit-text-stroke: 1px white;">Elhagyott állatoknak otthonokat találni.</p>
+                    <a href="AdoptAPet" class="btn btn-primary mt-3 adopt-btn slide-in">Állatot örökbe fogadni.</a>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="container mt-5 fade-in">
-        <h3 class="text-center welcome-title">Welcome to our Page</h3>
+        <h3 class="text-center welcome-title">Üdvözöljük az oldalunkon.</h3>
         <div class="container slim-para">
-            <p>We are helping animal shelters and rescues to be able to find new homes for the animals in need. Note that we do not do animal rescues ourselves, we provide support to those organizations in any way possible via promotion, marketing, graphic design, fundraising, social media, website development and support, etc. to spread the word and build international relations between organizations.</p>
-            <p>We are more than happy to share your posts of animals that are looking for a forever home or perhaps in need of funding to provide medical care. We will gladly help you with Facebook, Twitter, Instagram, YouTube and other social media platforms you may use. Note that we provide our services free of charge and we hope that we can make a difference that way in saving the lives of as many animals as possible.</p>
+            <p>Segítünk az állatmenhelyeknek és mentőszervezeteknek, hogy új otthonokat találjanak a szükséget szenvedő állatoknak. Fontos megjegyzés, hogy mi magunk nem végzünk állatmentéseket; támogatást nyújtunk ezeknek a szervezeteknek bármilyen lehetséges módon, mint például a népszerűsítés, marketing, grafikai tervezés, adománygyűjtés, közösségi média, weboldalfejlesztés és támogatás stb., hogy terjesszük a hírt és nemzetközi kapcsolatokat építsünk ki a szervezetek között.</p>
+            <p>Örömmel osztjuk meg azokat a bejegyzéseket, amelyek állatokat mutatnak be, akik örökké tartó otthont keresnek, vagy esetleg támogatásra van szükségük az orvosi ellátáshoz. Szívesen segítünk a Facebookon, Twitteren, Instagramon, YouTube-on és más olyan közösségi média platformokon, amelyeket használnak. Fontos megjegyzés, hogy szolgáltatásainkat ingyenesen biztosítjuk, és reméljük, hogy ezen keresztül különbséget tehetünk az állatok életének megmentésében.</p>
         </div>
         <div class="row mt-4">
             <div class="col-md-4 d-flex flex-column">
@@ -67,5 +66,5 @@
         gtag('config', 'UA-178008028-1');
     </script>
 
-    <?php require APPROOT . '/views/includes/footer.php'; ?>
+    <?php require APPROOT . '/views/includes/hungfooter.php'; ?>
 </body>

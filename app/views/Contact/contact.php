@@ -16,18 +16,15 @@
 
 <body>
 
-        <!-- Hero Start -->
-    <div class="container-fluid banner"
-        style="background-image: url('https://i.imgur.com/mKahEKE.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <!-- Hero Start -->
+    <div class="container-fluid banner" style="background-image: url('https://i.imgur.com/mKahEKE.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-black slide-in"
-                        style="font-family: 'Open Sans', sans-serif; font-size: 50px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">
+                    <h2 class="text-black slide-in" style="font-family: 'Open Sans', sans-serif; font-size: 50px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">
                         Contact Us</h2>
                     <hr>
-                    <h2 class="text-black slide-in"
-                        style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping
+                    <h2 class="text-black slide-in" style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping
                         abandonned animals finding homes</h4>
                 </div>
             </div>
@@ -76,8 +73,7 @@
                                 <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
                             </div>
                             <div>
-                                <a href='/Gazdiravar/Volunteer'><button type="submit" class="btn btn-primary"
-                                        name="addVolunteer" onclick="openEmailClient()">Submit</button></a>
+                                <a href='/Gazdiravar/Volunteer'><button type="submit" class="btn btn-primary" name="addVolunteer" onclick="openEmailClient()">Submit</button></a>
                             </div>
                         </form>
 
@@ -109,8 +105,7 @@
                     <!-- Leaflet Map -->
                     <div id="map" class="popup-animation" style="width: 100%; height: 450px;"></div>
                     <!-- Buttons on top of the map -->
-                    <div class="btn-group map-buttons"
-                        style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
+                    <div class="btn-group map-buttons" style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
                         <button id="mapButton" class="btn custom-button">Map</button>
                         <button id="satelliteButton" class="btn custom-button">Satellite</button>
                     </div>
@@ -119,6 +114,24 @@
             <!-- Map Container -->
         </div>
     </div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178008028-1"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+
+
+        gtag('config', 'UA-178008028-1');
+    </script>
 
     <script src="public/javacript/contact.js"></script>
     <?php require APPROOT . '/views/includes/footer.php'; ?>
