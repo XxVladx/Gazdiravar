@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require APPROOT . '/views/includes/header.php'; ?>
+<?php require APPROOT . '/views/includes/hungheader.php'; ?>
 
 <head>
     <meta charset="utf-8">
@@ -31,7 +31,7 @@
 
             <br>
             <br>
-            
+
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 pop-up">
@@ -70,15 +70,33 @@
 
             <div class="container mt-5">
                 <div class="alert alert-info" role="alert">
-                <strong>Jogi nyilatkozat:</strong> Mindezek a tervek a Consultation SOS tulajdonát képezik. Ha
+                    <strong>Jogi nyilatkozat:</strong> Mindezek a tervek a Consultation SOS tulajdonát képezik. Ha
                     használja vagy megosztja őket, ne távolítsa el a gazdiravar.com webhely címét. Copyright,
-                    Consultation SOS, Minden jog fenntartva.                </div>
+                    Consultation SOS, Minden jog fenntartva.
+                </div>
             </div>
         </div>
     </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178008028-1"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+
+
+        gtag('config', 'UA-178008028-1');
+    </script>
 
     <script src="public/javacript/fireworks.js"></script>
-    <?php require APPROOT . '/views/includes/footer.php'; ?>
+    <?php require APPROOT . '/views/includes/hungfooter.php'; ?>
 </body>
 
 </html>

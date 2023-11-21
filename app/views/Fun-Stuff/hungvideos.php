@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require APPROOT . '/views/includes/header.php'; ?>
+<?php require APPROOT . '/views/includes/hungheader.php'; ?>
 
 <head>
     <meta charset="utf-8">
@@ -16,8 +16,7 @@
                 <div class="col-md-12">
                     <h2 class="text-black slide-in" style="font-size: 50px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Videók</h2>
                     <hr>
-                    <h2 class="text-black slide-in"
-                        style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Az elhagyott állatok otthonra találásának segítése</h4>
+                    <h2 class="text-black slide-in" style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Az elhagyott állatok otthonra találásának segítése</h4>
                 </div>
             </div>
         </div>
@@ -252,9 +251,26 @@
             </div>
         </div>
     </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178008028-1"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+
+
+        gtag('config', 'UA-178008028-1');
+    </script>
 
     <script src="public/javacript/videos.js"></script>
-    <?php require APPROOT . '/views/includes/footer.php'; ?>
+    <?php require APPROOT . '/views/includes/hungfooter.php'; ?>
 </body>
 
 </html>

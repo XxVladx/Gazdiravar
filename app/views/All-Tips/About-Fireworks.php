@@ -93,7 +93,7 @@
 
         gtag('config', 'UA-178008028-1');
     </script>
-
+    <script src="public/javacript/fireworks.js"></script>
     <?php require APPROOT . '/views/includes/footer.php'; ?>
 </body>
 

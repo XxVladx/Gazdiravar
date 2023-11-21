@@ -50,7 +50,7 @@
                 <li class="dropend">
                     <span class="dropdown-toggle text">Rólunk</span>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item textdrop" href="About">A csapatról</a></li>
+                        <li><a class="dropdown-item textdrop" href="HungAbout">A csapatról</a></li>
                         <li><a class="dropdown-item textdrop" href="#">Együttműködések</a></li>
                         <li><a class="dropdown-item textdrop" href="Contact">Kapcsolat</a></li>
                     </ul>
@@ -67,16 +67,16 @@
                     <span class="dropdown-toggle text">Minden tanács</span>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item textdrop" href="HungSummerTips">Nyári tippek</a></li>
-                        <li><a class="dropdown-item textdrop" href="AutumnTips">Őszi tippek</a></li>
-                        <li><a class="dropdown-item textdrop" href="AboutFireworks">A tűzijátékokról</a></li>
-                        <li><a class="dropdown-item textdrop" href="AboutHalloween">Az Halloween-ről</a></li>
+                        <li><a class="dropdown-item textdrop" href="HungAutumnTips">Őszi tippek</a></li>
+                        <li><a class="dropdown-item textdrop" href="HungAboutFireworks">A tűzijátékokról</a></li>
+                        <li><a class="dropdown-item textdrop" href="HungAboutHalloween">Az Halloween-ről</a></li>
                     </ul>
                 </li>
                 <li class="dropend">
                     <span class="dropdown-toggle text" style="font-size: 20px;">Szórakoztató dolgok</span>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item textdrop" href="HungOurFavoritePosts">Kedvenc bejegyzéseink</a></li>
-                        <li><a class="dropdown-item textdrop" href="Videos">Videók</a></li>
+                        <li><a class="dropdown-item textdrop" href="HungVideos">Videók</a></li>
                         <li><a class="dropdown-item textdrop" href="#">Élő adások</a></li>
                         <li><a class="dropdown-item textdrop" href="BackgroundImages">Háttérképek</a></li>
                         <li><a class="dropdown-item textdrop" href="#">Játékok</a></li>
@@ -88,7 +88,7 @@
                         <li><a class="dropdown-item textdrop" href="#" style="font-size: 15px;">Adománygyűjtő rendezvények</a></li>
                         <li><a class="dropdown-item textdrop" href="HungHelpingShelters" style="font-size: 15px;">Menhelyek segítése</a></li>
                         <li><a class="dropdown-item textdrop" href="#" style="font-size: 15px;">Önkénteskedés a Gazdira Várnál</a></li>
-                        <li><a class="dropdown-item textdrop" href="HowCanYouHelpUs" style="font-size: 15px;">Hogyan segíthet nekünk?</a></li>
+                        <li><a class="dropdown-item textdrop" href="HungHowCanYouHelpUs" style="font-size: 15px;">Hogyan segíthet nekünk?</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

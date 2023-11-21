@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require APPROOT . '/views/includes/header.php'; ?>
+<?php require APPROOT . '/views/includes/hungheader.php'; ?>
 
 <head>
     <meta charset="utf-8">
@@ -11,17 +11,14 @@
 
 <body>
     <!-- Hero Start -->
-    <div class="container-fluid banner"
-        style="background-image: url('https://i.imgur.com/T5yUKYI.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div class="container-fluid banner" style="background-image: url('https://i.imgur.com/T5yUKYI.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-black slide-in"
-                        style="font-size: 50px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Őszi
+                    <h2 class="text-black slide-in" style="font-size: 50px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Őszi
                         tippek</h2>
                     <hr>
-                    <h2 class="text-black slide-in"
-                        style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Az
+                    <h2 class="text-black slide-in" style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Az
                         elhagyott állatok otthonra találásának segítése</h4>
                 </div>
             </div>
@@ -208,11 +205,27 @@
                 </div>
             </div>
         </div>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178008028-1"></script>
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
 
 
 
+            gtag('config', 'UA-178008028-1');
+        </script>
 
-        <?php require APPROOT . '/views/includes/footer.php'; ?>
+
+
+        <?php require APPROOT . '/views/includes/hungfooter.php'; ?>
 
 </body>
 
