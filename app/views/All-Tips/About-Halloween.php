@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" type="text/css" href="css/abouthalloween.css">
+    <link rel="stylesheet" type="text/css" href="css/pumpkin.css">
+
 
 </head>
 
@@ -79,7 +81,7 @@
 
         </div>
 
-
+        <script src="public/javacript/pumpkin.js"></script>
         <?php require APPROOT . '/views/includes/footer.php'; ?>
 </body>
 

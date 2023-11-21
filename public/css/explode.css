@@ -1,0 +1,19 @@
+@keyframes explode {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(5);
+        opacity: 0;
+    }
+}
+
+.firework {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #ffcc00; /* You can change the color */
+    border-radius: 50%;
+    animation: explode 2s linear;
+}

@@ -15,9 +15,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-black slide-in" style="font-size: 50px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">About Fireworks</h2>
+                    <h2 class="text-black slide-in" style="font-size: 50px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">A tűzijátékról</h2>
                     <hr>
-                    <h2 class="text-black slide-in" style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping abandonned animals finding homes</h4>
+                    <h2 class="text-black slide-in" style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Az elhagyott állatok otthonra találásának segítése</h4>
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <br>
-            <h2 class="text-center slide-in">About Fireworks 🎆</h2>
+            <h2 class="text-center slide-in">A tűzijátékról 🎆</h2>
 
             <br>
             <br>
@@ -70,8 +70,9 @@
 
             <div class="container mt-5">
                 <div class="alert alert-info" role="alert">
-                    <strong>Disclaimer:</strong> All of these designs are the property of Consultation SOS. If you use them or share them, do not remove our website address for gazdiravar.com. Copyright, Consultation SOS, All rights reserved.
-                </div>
+                <strong>Jogi nyilatkozat:</strong> Mindezek a tervek a Consultation SOS tulajdonát képezik. Ha
+                    használja vagy megosztja őket, ne távolítsa el a gazdiravar.com webhely címét. Copyright,
+                    Consultation SOS, Minden jog fenntartva.                </div>
             </div>
         </div>
     </div>
