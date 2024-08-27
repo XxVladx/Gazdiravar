@@ -11,9 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
+
 class Users
 {
-    public function __construct(string $file = '../users.dat')
+    public function __construct(string $file = __DIR__ . '/../users.dat')
     {
         $this->userFile = $file;
 

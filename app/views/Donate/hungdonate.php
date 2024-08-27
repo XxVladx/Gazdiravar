@@ -11,7 +11,7 @@
 
 <body>
     <!-- Hero Start -->
-    <div class="container-fluid banner" style="background-image: url('https://i.imgur.com/mKahEKE.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div class="container-fluid banner" style="background-image: url('images/pexels-photo-3184465.png'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -53,7 +53,7 @@
                             <!-- Image next to the second paragraph -->
                             <div class="row mt-4">
                                 <div class="col-md-6">
-                                    <img src="https://i.imgur.com/gpQpnbc.png" alt="Logo" height="70">
+                                    <img src="images/Gazdiravar2.png" alt="Logo" height="70">
                                 </div>
                                 <div class="col-md-6">
                                     <div class="border p-3" style="">

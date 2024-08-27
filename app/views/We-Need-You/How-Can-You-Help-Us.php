@@ -12,7 +12,7 @@
 
 <body>
     <!-- Hero Start -->
-    <div class="container-fluid banner" style="background-image: url('https://i.imgur.com/ij1jC22.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div class="container-fluid banner" style="background-image: url('images/ij1jC22.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -33,7 +33,7 @@
             <div class="col-md-4 fade-in">
                 <div class="card custom-card">
                     <div class="card-body">
-                        <img src="https://i.imgur.com/JBxu9so.jpg" class="img-fluid" alt="Help Us Image">
+                        <img src="images/JBxu9so.jpg" class="img-fluid" alt="Help Us Image">
                     </div>
                 </div>
             </div>

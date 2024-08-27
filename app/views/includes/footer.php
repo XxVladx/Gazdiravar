@@ -3,12 +3,13 @@
 
 <head>
 
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="public/css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css/css/flag-icon.min.css">
 
     <title><?php echo SITENAME; ?></title>
+	
 </head>
 
 <body>
@@ -25,8 +26,12 @@
                         <li>- Downloadable background images and posters</li>
                         <li>- And more!</li>
                     </ul>
+					
                     <form action="#" method="post" class="form-inline justify-content-center mt-3">
-                        <div class="form-group mx-sm-3 mb-2">
+                       <div class="form-group" >            
+                         <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY" style="text-align: center"></div>
+                       </div>
+					   <div class="form-group mx-sm-3 mb-2">
                             <input type="email" class="form-control" id="email" name="email" placeholder="Your email address" required>
                         </div>
                         <button type="submit" class="btn btn-primary mb-2 custom-btn">SUBSCRIBE!</button>

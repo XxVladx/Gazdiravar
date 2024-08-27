@@ -5,15 +5,15 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link rel="stylesheet" type="text/css" href="css/abouthalloween.css">
-    <link rel="stylesheet" type="text/css" href="css/pumpkin.css">
+    <link rel="stylesheet" type="text/css" href="public/css/abouthalloween.css">
+    <link rel="stylesheet" type="text/css" href="public/css/pumpkin.css">
 
 
 </head>
 
 <body>
     <!-- Hero Start -->
-    <div class="container-fluid banner" style="background-image: url('https://i.imgur.com/uPk2etW.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div class="container-fluid banner" style="background-image: url('images/Halloween/uPk2etW.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -37,81 +37,82 @@
                 <div class="col-md-4">
                     <div class="card custom-card">
                         <div class="card-body">
-                            <img src="https://i.imgur.com/BmNQP1n.jpg" alt="Halloween Image" class="card-img-top">
+                            <img src="images/Halloween/BmNQP1n.jpg" alt="Halloween Image" class="card-img-top">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="container" style="margin-top: 50px;">
+    <div class="container" style="margin-top: 50px;">
 
-            <div class="fade-in">
+        <div class="fade-in">
 
-                <p class="mt-4">
-                    A Halloween vagy Halloween, más néven Allhalloween, All Hallows' Eve vagy All Saints' Eve, sok
-                    országban október 31-én ünneplik.
-                </p>
+            <p class="mt-4">
+                A Halloween vagy Halloween, más néven Allhalloween, All Hallows' Eve vagy All Saints' Eve, sok
+                országban október 31-én ünneplik.
+            </p>
 
-                <p class="mt-4">
-                    Ezzel kezdődik az Allhallowtide ünnepe, amely a liturgikus évnek a halottakra való emlékezésének
-                    szentelt ideje, beleértve a szenteket (szentek), a mártírokat és az összes elhunytat.
+            <p class="mt-4">
+                Ezzel kezdődik az Allhallowtide ünnepe, amely a liturgikus évnek a halottakra való emlékezésének
+                szentelt ideje, beleértve a szenteket (szentek), a mártírokat és az összes elhunytat.
 
-                    Maga a szó szó szerint „megszentelt estét” jelent, és korábban a korai európai ünneplők All Hallows’
-                    Eve néven ismerték. Mindenszentek estéje (október 31.) és Mindenszentek napja (november 1.) egyaránt
-                    a szentek előtt tisztelegtek ("szentek" = szentek). A név végül „Halloween”-re rövidült, amit a mai
-                    napig ismerünk és szeretünk.
-                </p>
+                Maga a szó szó szerint „megszentelt estét” jelent, és korábban a korai európai ünneplők All Hallows’
+                Eve néven ismerték. Mindenszentek estéje (október 31.) és Mindenszentek napja (november 1.) egyaránt
+                a szentek előtt tisztelegtek ("szentek" = szentek). A név végül „Halloween”-re rövidült, amit a mai
+                napig ismerünk és szeretünk.
+            </p>
 
-                <p class="mt-4">
-                    Halloween azért esik október 31-re, mert ezen a napon volt az ősi gael Samhain ünnep, amely a
-                    Halloween legkorábbi ismert gyökere. Ez az év sarkalatos időszaka volt, amikor az évszakok
-                    változtak, de ami még fontosabb, a megfigyelők azt is hitték, hogy a határ e világ és a következő
-                    között ebben az időben különösen vékony lett, lehetővé téve számukra, hogy kapcsolatba lépjenek a
-                    halottakkal. </p>
+            <p class="mt-4">
+                Halloween azért esik október 31-re, mert ezen a napon volt az ősi gael Samhain ünnep, amely a
+                Halloween legkorábbi ismert gyökere. Ez az év sarkalatos időszaka volt, amikor az évszakok
+                változtak, de ami még fontosabb, a megfigyelők azt is hitték, hogy a határ e világ és a következő
+                között ebben az időben különösen vékony lett, lehetővé téve számukra, hogy kapcsolatba lépjenek a
+                halottakkal. </p>
 
-                <p class="mt-4">
-                    Több száz évvel ezelőtt az emberekről azt mondták, hogy szentnek öltöztek, és házról házra szavaltak
-                    dalokat vagy verseket, ami a halloweeni jelmezek és a trükközés eredete. </p>
+            <p class="mt-4">
+                Több száz évvel ezelőtt az emberekről azt mondták, hogy szentnek öltöztek, és házról házra szavaltak
+                dalokat vagy verseket, ami a halloweeni jelmezek és a trükközés eredete. </p>
 
-                <p class="mt-4">
-                    Nem számít, hány éves vagy, vagy hányszor jártál a háztömbön, az ünnep egyszerűen soha nem múlik el.
-                </p>
+            <p class="mt-4">
+                Nem számít, hány éves vagy, vagy hányszor jártál a háztömbön, az ünnep egyszerűen soha nem múlik el.
+            </p>
 
-                <p class="mt-4">
-                    Akár trükközik, akár gyertyát gyújtanak szeretteiért, mi veletek vagyunk ezen a különleges napon.
-                </p>
+            <p class="mt-4">
+                Akár trükközik, akár gyertyát gyújtanak szeretteiért, mi veletek vagyunk ezen a különleges napon.
+            </p>
 
-                <div class="container mt-5">
-                    <div class="alert alert-info" role="alert">
-                        <strong>Jogi nyilatkozat:</strong> Mindezek a tervek a Consultation SOS tulajdonát képezik. Ha
-                        használja vagy megosztja őket, ne távolítsa el a gazdiravar.com webhely címét. Copyright,
-                        Consultation SOS, Minden jog fenntartva.
-                    </div>
+            <div class="container mt-5">
+                <div class="alert alert-info" role="alert">
+                    <strong>Jogi nyilatkozat:</strong> Mindezek a tervek a Consultation SOS tulajdonát képezik. Ha
+                    használja vagy megosztja őket, ne távolítsa el a gazdiravar.com webhely címét. Copyright,
+                    Consultation SOS, Minden jog fenntartva.
                 </div>
             </div>
-
         </div>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178008028-1"></script>
+    </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 
-        <script>
-            window.dataLayer = window.dataLayer || [];
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178008028-1"></script>
 
-            function gtag() {
-                dataLayer.push(arguments);
-            }
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-            gtag('js', new Date());
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
 
 
 
-            gtag('config', 'UA-178008028-1');
-        </script>
+        gtag('config', 'UA-178008028-1');
+    </script>
 
-        <script src="public/javacript/pumpkin.js"></script>
-        <?php require APPROOT . '/views/includes/hungfooter.php'; ?>
+    <script src="public/javacript/pumpkin.js"></script>
+    <?php require APPROOT . '/views/includes/hungfooter.php'; ?>
 </body>
 
 </html>

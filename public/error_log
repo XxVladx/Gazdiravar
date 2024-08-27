@@ -1,0 +1,24 @@
+[23-Jan-2024 19:21:21 UTC] PHP Warning:  require_once(core/App.php): Failed to open stream: No such file or directory in /home/consu492/gazdiravar.com/app/init.php on line 11
+[23-Jan-2024 19:21:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'core/App.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/consu492/gazdiravar.com/app/init.php:11
+Stack trace:
+#0 /home/consu492/gazdiravar.com/public/index.php(3): {closure}('App')
+#1 {main}
+  thrown in /home/consu492/gazdiravar.com/app/init.php on line 11
+[23-Jan-2024 19:21:43 UTC] PHP Warning:  require_once(core/App.php): Failed to open stream: No such file or directory in /home/consu492/gazdiravar.com/app/init.php on line 11
+[23-Jan-2024 19:21:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'core/App.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/consu492/gazdiravar.com/app/init.php:11
+Stack trace:
+#0 /home/consu492/gazdiravar.com/public/index.php(3): {closure}('App')
+#1 {main}
+  thrown in /home/consu492/gazdiravar.com/app/init.php on line 11
+[28-Jan-2024 21:41:33 UTC] PHP Warning:  require_once(core/App.php): Failed to open stream: No such file or directory in /home/consu492/gazdiravar.com/app/init.php on line 11
+[28-Jan-2024 21:41:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'core/App.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/consu492/gazdiravar.com/app/init.php:11
+Stack trace:
+#0 /home/consu492/gazdiravar.com/public/index.php(3): {closure}('App')
+#1 {main}
+  thrown in /home/consu492/gazdiravar.com/app/init.php on line 11
+[30-Jan-2024 01:32:46 UTC] PHP Warning:  require_once(core/App.php): Failed to open stream: No such file or directory in /home/consu492/gazdiravar.com/app/init.php on line 11
+[30-Jan-2024 01:32:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'core/App.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/consu492/gazdiravar.com/app/init.php:11
+Stack trace:
+#0 /home/consu492/gazdiravar.com/public/index.php(3): {closure}('App')
+#1 {main}
+  thrown in /home/consu492/gazdiravar.com/app/init.php on line 11

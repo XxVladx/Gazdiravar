@@ -2,7 +2,7 @@
 // App Root
 define('APPROOT', dirname(dirname(__FILE__)));
 // URL Root
-define('URLROOT', 'http://localhost/Gazdiravar');
+define('URLROOT', 'https://gazdiravar.com/');
 // Site Name
 define('SITENAME', 'Gazdiravar');
 

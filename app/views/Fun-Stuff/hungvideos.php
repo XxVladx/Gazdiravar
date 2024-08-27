@@ -10,7 +10,7 @@
 
 <body>
     <!-- Hero Start -->
-    <div class="container-fluid banner" style="background-image: url('https://i.imgur.com/Ud1rXpq.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div class="container-fluid banner" style="background-image: url('images/pexels-photo-6001385.png'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

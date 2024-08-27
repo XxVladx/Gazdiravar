@@ -10,7 +10,7 @@
 
 <body>
 
-    <div class="container-fluid banner" style="background-image: url('https://i.imgur.com/d2juuc1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div class="container-fluid banner" style="background-image: url('images/summer-tips/pexels-pixabay-460985.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -32,7 +32,7 @@
                 <div class="card custom-card">
                     <div class="card-body">
                         <p class="text-center" style="font-weight: bold;">Reminder #1</p>
-                        <img src="https://i.imgur.com/ThnYpCN.jpg" class="img-fluid" alt="Reminder #1 Image">
+                        <img src="images/summer-tips/summer-tips-insta-1.jpg" class="img-fluid" alt="Reminder #1 Image">
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                 <div class="card custom-card">
                     <div class="card-body">
                         <p class="text-center" style="font-weight: bold;">Reminder #2</p>
-                        <img src="https://i.imgur.com/J5RpUfU.jpg" class="img-fluid" alt="Reminder #2 Image">
+                        <img src="images/summer-tips/summer-tips-insta-2.jpg" class="img-fluid" alt="Reminder #2 Image">
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                 <div class="card custom-card">
                     <div class="card-body">
                         <p class="text-center" style="font-weight: bold;">Reminder #3</p>
-                        <img src="https://i.imgur.com/tcaM5Md.jpg" class="img-fluid" alt="Reminder #3 Image">
+                        <img src="images/summer-tips/summer-tips-insta-3.jpg" class="img-fluid" alt="Reminder #3 Image">
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                 <div class="card custom-card">
                     <div class="card-body">
                         <p class="text-center" style="font-weight: bold;">Reminder #4</p>
-                        <img src="https://i.imgur.com/dMQaw90.jpg" class="img-fluid" alt="Reminder #4 Image">
+                        <img src="images/summer-tips/summer-tips-insta-4.jpg" class="img-fluid" alt="Reminder #4 Image">
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
         <div class="col-md-3 fade-in">
             <div class="card custom-card">
                 <div class="card-body">
-                    <img src="https://i.imgur.com/YwxkTCy.jpg" class="img-fluid" alt="Safety tips Image">
+                    <img src="images/summer-tips/summer-safety-tips-poster1.jpg" class="img-fluid" alt="Safety tips Image">
                 </div>
             </div>
         </div>

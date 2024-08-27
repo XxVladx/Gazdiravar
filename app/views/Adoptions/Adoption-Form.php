@@ -11,7 +11,7 @@
 <body>
 
     <body>
-        <div class="container-fluid banner" style="background-image: url('https://i.imgur.com/39qfWYB.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+        <div class="container-fluid banner" style="background-image: url('images/adoptions/pexels-pixabay-261679.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">

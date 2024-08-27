@@ -11,7 +11,7 @@
 
 <body>
     <!-- Hero Start -->
-    <div class="container-fluid banner" style="background-image: url('https://i.imgur.com/HvuPQ4F.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div class="container-fluid banner" style="background-image: url('images/Firework/HvuPQ4F.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -35,17 +35,17 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 pop-up">
-                        <img src="https://i.imgur.com/TOGKFuu.jpg" alt="Fireworks Image1" class="card-img-top">
+                        <img src="images/Firework/TOGKFuu.jpg" alt="Fireworks Image1" class="card-img-top">
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 pop-up">
-                        <img src="https://i.imgur.com/XuSp83h.jpg" alt="Fireworks Image2" class="card-img-top">
+                        <img src="images/Firework/XuSp83h.jpg" alt="Fireworks Image2" class="card-img-top">
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 pop-up">
-                        <img src="https://i.imgur.com/1n36ENv.jpg" alt="Fireworks Image3" class="card-img-top">
+                        <img src="images/Firework/1n36ENv.jpg" alt="Fireworks Image3" class="card-img-top">
                     </div>
                 </div>
             </div>
@@ -53,17 +53,17 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 pop-up">
-                        <img src="https://i.imgur.com/PkUiW17.jpg" alt="Fireworks Image4" class="card-img-top">
+                        <img src="images/Firework/PkUiW17.jpg" alt="Fireworks Image4" class="card-img-top">
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 pop-up">
-                        <img src="https://i.imgur.com/siGiDOx.jpg" alt="Fireworks Image5" class="card-img-top">
+                        <img src="images/Firework/siGiDOx.jpg" alt="Fireworks Image5" class="card-img-top">
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 pop-up">
-                        <img src="https://i.imgur.com/fLCGqG3.jpg" alt="Fireworks Image6" class="card-img-top">
+                        <img src="images/Firework/fLCGqG3.jpg" alt="Fireworks Image6" class="card-img-top">
                     </div>
                 </div>
             </div>

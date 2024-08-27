@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="container-fluid banner" style="background-image: url('https://i.imgur.com/U6Rt7OC.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div class="container-fluid banner" style="background-image: url('images/OurFavoritePosts/U6Rt7OC.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -56,7 +56,7 @@
                 <div class="card custom-cards slide-in">
                     <div class="card-body">
                         <h5 class="card-title text-center">Szellem</h5>
-                        <img src="https://i.imgur.com/uLcw8Jy.png" class="card-img-top" alt="Ghost Image">
+                        <img src="images/OurFavoritePosts/Ghost.png" class="card-img-top" alt="Ghost Image">
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                 <div class="card custom-cards slide-in">
                     <div class="card-body">
                         <h5 class="card-title text-center">Felújítás</h5>
-                        <img src="https://i.imgur.com/DO46Q5y.png" class="card-img-top" alt="Renovation Image">
+                        <img src="images/OurFavoritePosts/Renovation.png" class="card-img-top" alt="Renovation Image">
                         <h5 class="text-center para-text">A nap tippje</h5>
                         <p class="para-text text-center">Ha olyan tó közelében öntjük a betont, ahol kacsák vannak, akkor nem jó ötlet, hogy az egész személyzetet egyszerre menjen ebédelni.</p>
                     </div>
@@ -74,7 +74,7 @@
                 <div class="card custom-cards slide-in">
                     <div class="card-body">
                         <h5 class="card-title text-center">Művészet a homokban</h5>
-                        <img src="https://i.imgur.com/AuPe6Lc.png" class="card-img-top" alt="Art in the Sand Image">
+                        <img src="images/OurFavoritePosts/Art In Sand.png" class="card-img-top" alt="Art in the Sand Image">
                     </div>
                 </div>
             </div>

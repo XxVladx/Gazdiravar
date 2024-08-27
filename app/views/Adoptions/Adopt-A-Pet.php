@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="container-fluid banner" style="background-image: url('https://i.imgur.com/wITAU1r.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div class="container-fluid banner" style="background-image: url('images/adoptions/pexels-fuzzy-rescue-4730079.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -33,7 +33,7 @@
             <div class="col-md-3 mb-4">
                 <div class="card rounded border-0">
                     <a href="AnimalDetails">
-                        <img src="https://i.imgur.com/OouULsP.png" class="card-img-top" alt="Animal Image">
+                        <img src="" class="card-img-top" alt="Animal Image">
                     </a>
                 </div>
                 <div class="card-details text-center">
@@ -46,7 +46,7 @@
             <div class="col-md-3 mb-4">
                 <div class="card rounded border-0">
                     <a href="AnimalDetails">
-                        <img src="https://i.imgur.com/CaFK78g.png" class="card-img-top" alt="Animal Image">
+                        <img src="" class="card-img-top" alt="Animal Image">
                     </a>
                 </div>
                 <div class="card-details text-center">
@@ -59,7 +59,7 @@
             <div class="col-md-3 mb-4">
                 <div class="card rounded border-0">
                     <a href="AnimalDetails">
-                        <img src="https://i.imgur.com/pIKbwEx.png" class="card-img-top" alt="Animal Image">
+                        <img src="" class="card-img-top" alt="Animal Image">
                     </a>
                 </div>
                 <div class="card-details text-center">
@@ -72,7 +72,7 @@
             <div class="col-md-3 mb-4">
                 <div class="card rounded border-0">
                     <a href="AnimalDetails">
-                        <img src="https://i.imgur.com/vDZzMRH.png" class="card-img-top" alt="Animal Image"> </a>
+                        <img src="" class="card-img-top" alt="Animal Image"> </a>
                     </a>
                 </div>
                 <div class="card-details text-center">

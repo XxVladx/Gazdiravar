@@ -5,26 +5,26 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="public/css/home.css">
 </head>
 
 <body>
 
-    <div class="container-fluid banner" style="background-image: url('https://i.imgur.com/aiOMBOB.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+    <div class="container-fluid banner" style="background-image: url('images/Home/pexels-photo-1476706.jpeg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="text-black slide-in" id="text-title1" style="font-weight: 500; -webkit-text-stroke: 1px white;">Gazdira Vár</h2>
                     <hr>
                     <h2 class="text-black slide-in" style="font-size: 30px; -webkit-text-stroke: 1px white; text-fill-color: transparent;">Helping
-                        abandonned animals finding homes</h4>
+                        abandoned animals finding homes</h4>
                 </div>
             </div>
             <hr class="custom-hr">
             <div class="row">
                 <div class="col-md-12">
                     <p class="text-white slide-in" id="subtext" style="font-size: 20px; -webkit-text-stroke: 1px white;">Helping abandoned animals finding homes</p>
-                    <a href="AdoptAPet" class="btn btn-primary mt-3 adopt-btn slide-in">Adopt a Pet</a>
+                    <a href="Adopt-A-Pet.php" class="btn btn-primary mt-3 adopt-btn slide-in">Adopt a Pet</a>
                 </div>
             </div>
         </div>
@@ -38,13 +38,13 @@
         </div>
         <div class="row mt-4">
             <div class="col-md-4 d-flex flex-column">
-                <img src="https://i.imgur.com/4zHNE3x.jpg" class="img-fluid" alt="Image 1">
+                <img src="images/Home/cat-staring.jpg" class="img-fluid" alt="Image 1">
             </div>
             <div class="col-md-4 d-flex flex-column">
-                <img src="https://i.imgur.com/YZo2rlz.jpg" class="img-fluid" alt="Image 2">
+                <img src="images/Home/dog-in-a-tuxedo.jpg" class="img-fluid" alt="Image 2">
             </div>
             <div class="col-md-4 d-flex flex-column">
-                <img src="https://i.imgur.com/hcYGqdf.jpg" class="img-fluid" alt="Image 3">
+                <img src="images/Home/shelter-cat.jpg" class="img-fluid" alt="Image 3">
             </div>
         </div>
     </div>

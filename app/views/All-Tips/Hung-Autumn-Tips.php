@@ -11,7 +11,7 @@
 
 <body>
     <!-- Hero Start -->
-    <div class="container-fluid banner" style="background-image: url('https://i.imgur.com/T5yUKYI.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div class="container-fluid banner" style="background-image: url('images/pexels-photo-1108099.png'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -38,7 +38,7 @@
                         <div class="card-body">
                             <p class="text-center" style="font-weight: bold;">Emlékeztető #1</p>
 
-                            <img src="https://i.imgur.com/LnrE7rj.jpg" alt="Autumn Image" class="card-img-top">
+                            <img src="images/Autumn/LnrE7rj.jpg" alt="Autumn Image" class="card-img-top">
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                         <div class="card-body">
                             <p class="text-center" style="font-weight: bold;">Emlékeztető #2</p>
 
-                            <img src="https://i.imgur.com/8Hclgbq.jpg" alt="Autumn Image" class="card-img-top">
+                            <img src="images/Autumn/8Hclgbq.jpg" alt="Autumn Image" class="card-img-top">
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                         <div class="card-body">
                             <p class="text-center" style="font-weight: bold;">Emlékeztető #3</p>
 
-                            <img src="https://i.imgur.com/fbWH8cq.jpg" alt="Autumn Image" class="card-img-top">
+                            <img src="images/Autumn/fbWH8cq.jpg" alt="Autumn Image" class="card-img-top">
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                         <div class="card-body">
                             <p class="text-center" style="font-weight: bold;">Emlékeztető #4</p>
 
-                            <img src="https://i.imgur.com/AeuqbD6.jpg" alt="Autumn Image" class="card-img-top">
+                            <img src="images/Autumn/AeuqbD6.jpg" alt="Autumn Image" class="card-img-top">
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                         <div class="card-body">
                             <p class="text-center" style="font-weight: bold;">Emlékeztető #5</p>
 
-                            <img src="https://i.imgur.com/tzDboWK.jpg" alt="Autumn Image" class="card-img-top">
+                            <img src="images/Autumn/tzDboWK.jpg" alt="Autumn Image" class="card-img-top">
                         </div>
                     </div>
                 </div>
@@ -200,7 +200,7 @@
             <div class="col-md-3 fade-in">
                 <div class="card custom-card">
                     <div class="card-body">
-                        <img src="https://i.imgur.com/3ZsJh3g.jpg" class="img-fluid" alt="Safety tips Image">
+                        <img src="images/Autumn/3ZsJh3g.jpg" class="img-fluid" alt="Safety tips Image">
                     </div>
                 </div>
             </div>

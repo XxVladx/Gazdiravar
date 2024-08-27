@@ -8,5 +8,5 @@ require_once 'core/helper.php';
 //require_once 'core/Controller.php';
 
 spl_autoload_register(function ($className) {
-    require_once 'core/' . $className . '.php';
+    require_once __DIR__ . '/core/' . $className . '.php';
 });

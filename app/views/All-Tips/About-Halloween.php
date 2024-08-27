@@ -13,7 +13,7 @@
 
 <body>
     <!-- Hero Start -->
-    <div class="container-fluid banner" style="background-image: url('https://i.imgur.com/uPk2etW.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div class="container-fluid banner" style="background-image: url('images/Halloween/uPk2etW.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; text-align: center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -35,7 +35,7 @@
                 <div class="col-md-4">
                     <div class="card custom-card">
                         <div class="card-body">
-                            <img src="https://i.imgur.com/BmNQP1n.jpg" alt="Halloween Image" class="card-img-top">
+                            <img src="images/Halloween/BmNQP1n.jpg" alt="Halloween Image" class="card-img-top">
                         </div>
                     </div>
                 </div>
@@ -80,28 +80,29 @@
             </div>
 
         </div>
+    </div>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178008028-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178008028-1"></script>
 
-        <script>
-            window.dataLayer = window.dataLayer || [];
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-            function gtag() {
-                dataLayer.push(arguments);
-            }
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-            gtag('js', new Date());
+        gtag('js', new Date());
 
 
 
-            gtag('config', 'UA-178008028-1');
-        </script>
+        gtag('config', 'UA-178008028-1');
+    </script>
 
-        <script src="public/javacript/pumpkin.js"></script>
+    <script src="public/javacript/pumpkin.js"></script>
 
-        <?php require APPROOT . '/views/includes/footer.php'; ?>
+    <?php require APPROOT . '/views/includes/footer.php'; ?>
 </body>
 
 </html>
